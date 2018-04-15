@@ -1,0 +1,31 @@
+#ticket_layout
+{
+  margin: auto;
+  width: 50%;
+  padding: 100px;
+  position: relative;
+}
+
+#ticket_create
+{
+  height : 100px;
+  width: 50%;
+  border-style: solid;
+  border-color: blue;
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+}
+
+#ticket_view
+{
+  height : 100px;
+  width: 50%;
+  border-style: solid;
+  border-color: blue;
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+}
