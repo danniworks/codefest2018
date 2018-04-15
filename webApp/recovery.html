@@ -53,8 +53,33 @@
     <!-- Page Content -->
     <section class="py-5">
       <div class="container">
-        <div id="ticket_layout">
-          <h1>recovery</h1>
+        <div id="recovery_layout">
+          <h1>Disaster recovery</h1>
+
+          <!-- Ticket -->
+          <h2>Ticket number</h2>
+          <div> something here</div>
+
+          <!-- Estimated suppies needed -->
+          <h2> Supplies ( 3 days/person/unit ) </h2>
+
+          <h4> Water</h4> <select id = 'water'></select>
+          <h4> Food : </h4> <select id = 'food'></select>
+          <h4> shelter : </h4> <select id = 'shelter'></select>
+          <h4> clothes : </h4> <select id = 'clothes'></select>
+          <h4> home health care nurses : </h4> <select id = 'nurse'></select>
+
+          <!-- Assign Task-->
+          <h2> Assign Task</h2>
+
+          <button>Company 1</button>
+          <button>Company 2</button>
+          <button>Company 3</button>
+          <button>Company 4</button>
+
+          <!-- Estimated time -->
+          <h2>Estimated timw will be : </h2> <select id = 'time'></select>
+
 
         </div>
       </div>
@@ -66,12 +91,35 @@
         <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
       </div>
       <!-- /.container -->
-    </footer>
+    </footer
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+    <script>
+      var select = '';
+      for (i=0;i<=50;i++){
+        select += "<option value = "+ i + '>' + i + '</option>';
+      }
+
+      var est_time = '';
+      for(j = 1; j <= 24; j++){
+        est_time += "<option value = "+ j + '>' + j + ' hr' + '</option>';
+      }
+
+      $('#water').html(select);
+      $('#food').html(select);
+      $('#shelter').html(select);
+      $('#clothes').html(select);
+      $('#nurse').html(select);
+      $('#time').html(est_time);
+
+
+
+
+
+    </script>
   </body>
 
 </html>
