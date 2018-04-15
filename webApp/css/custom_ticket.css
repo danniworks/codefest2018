@@ -1,31 +1,67 @@
 #ticket_layout
 {
   margin: auto;
-  width: 50%;
-  padding: 100px;
+  padding-top: 50px;
+  padding-bottom: 200px;
   position: relative;
 }
 
 #ticket_create
 {
-  height : 100px;
+  height : 200px;
   width: 50%;
   border-style: solid;
   border-color: blue;
   float: left;
   text-align: center;
   vertical-align: middle;
-  line-height: 100px;
+  line-height: 200px;
+}
+
+#ticket_create p
+{
+  font-size : 200%;
+  color : blue;
 }
 
 #ticket_view
 {
-  height : 100px;
+  height : 200px;
   width: 50%;
   border-style: solid;
   border-color: blue;
   float: left;
   text-align: center;
   vertical-align: middle;
-  line-height: 100px;
+  line-height: 200px;
+}
+
+#ticket_view p
+{
+  font-size : 200%;
+  color : blue;
+}
+
+#ticket_title
+{
+  width: 100%;
+  text-align: center;
+}
+
+#ticket_title h1
+{
+  color : blue;
+  font-size : 250%;
+}
+
+#ticket_box
+{
+  margin : auto;
+  padding-bottom : 5px;
+  padding-top : 5px;
+}
+
+#map {
+  height: 400px;
+  width: 600px;
 }
